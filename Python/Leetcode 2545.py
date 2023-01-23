@@ -1,3 +1,6 @@
+from ast import List
+
+
 class Solution:
     def sortTheStudents(self, score: List[List[int]], k: int) -> List[List[int]]:
         answer = copy.deepcopy(score)
