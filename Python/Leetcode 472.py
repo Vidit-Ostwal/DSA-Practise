@@ -1,3 +1,6 @@
+import string
+
+
 class Solution:
     def Helper(self, word : string, temp_dict : dict) -> bool:
         for i in range(1,len(word)):
