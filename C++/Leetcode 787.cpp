@@ -32,7 +32,7 @@ public:
 
         // Node and the distance and the number of stops 
         queue<pair<int,int>> queue;
-        queue.push(make_apair(src,0));
+        queue.push(make_pair(src,0));
         distance[src] = 0;
         int stops = 0;
         while (queue.size() && stops <= k)
